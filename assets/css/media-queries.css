@@ -1,0 +1,422 @@
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (min-width:  811px) and (max-width: 980px) {
+
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+
+    .branding {
+        z-index: 300;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+
+    }
+
+    .factlist {
+        font-size: 400%;
+        font-weight: 500;
+        z-index: 300;
+        margin-top: 4%;
+    }
+
+
+    .window {
+        overflow: hidden;
+        text-align: center;
+        height: 100px;
+        float: left;
+        z-index: 300;
+        padding-right: 2%;
+        padding-left: 1%;
+
+    }
+
+    .factlist {
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .factlist li {
+
+        height: 0;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        list-style: none;
+
+    }
+
+    h1 {
+        font-size: 400%;
+        font-weight: 500;
+    }
+
+    hr {
+        background: yellow;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -2%;
+
+    }
+
+}
+
+
+/************************************************************************************
+smaller than 811
+*************************************************************************************/
+@media only screen  and (min-width:  600px) and (max-width : 811px) {
+
+
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+
+    .branding {
+        z-index: 300;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+
+    }
+
+    .factlist {
+        font-size: 400%;
+        font-weight: 500;
+        z-index: 300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .window {
+        overflow: hidden;
+        text-align: center;
+        height: 75px;
+        z-index: 300;
+        float: none;
+
+    }
+
+    .factlist {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        -moz-transform-origin: -80px 0;
+        -ms-transform-origin: -80px 0;
+        -webkit-transform-origin: -80px 0;
+        transform-origin: -80px 0;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -moz-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        -webkit-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+    .factlist li {
+
+        height: 0;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        list-style: none;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transform-origin: -80px 50%;
+        -ms-transform-origin: -80px 50%;
+        -webkit-transform-origin: -80px 50%;
+        transform-origin: -80px 50%;
+    }
+
+    h1 {
+
+        color: #ffffff;
+        font-size: 400%;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        z-index: 300;
+        margin-top: -5%;
+
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #ffffff;
+        width: 75%;
+        margin-top: -1.2%;
+    }
+
+    h3 {
+        width: 35%;
+        margin-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+}
+
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+    /*** Ticker starts here ***/
+
+    .branding {
+        z-index: 300;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+
+    }
+
+    .factlist {
+        font-size: 400%;
+        font-weight: 500;
+        z-index: 300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .window {
+        overflow: hidden;
+        text-align: center;
+        height: 75px;
+        z-index: 300;
+        float: none;
+
+    }
+
+    .factlist {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        -moz-transform-origin: -80px 0;
+        -ms-transform-origin: -80px 0;
+        -webkit-transform-origin: -80px 0;
+        transform-origin: -80px 0;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -moz-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        -webkit-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+    .factlist li {
+
+        height: 0;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        list-style: none;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transform-origin: -80px 50%;
+        -ms-transform-origin: -80px 50%;
+        -webkit-transform-origin: -80px 50%;
+        transform-origin: -80px 50%;
+    }
+
+    h1 {
+
+        color: #ffffff;
+        font-size: 400%;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        z-index: 300;
+        margin-top: -5%;
+
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #ffffff;
+        width: 75%;
+        margin-top: -1.2%;
+    }
+
+    h3 {
+        width: 35%;
+        margin-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 508px) {
+
+    /* disable webkit text size adjust (for iPhone) */
+    html {
+        -webkit-text-size-adjust: none;
+    }
+
+    .factlist {
+        font-size: 300%;
+        font-weight: 400;
+        z-index: 300;
+        margin-top: 4%;
+    }
+
+    h1 {
+        font-size: 300%;
+        font-weight: 400;
+    }
+
+    h2 {
+
+        width: 80%;
+    }
+    .how {
+        margin-top:8% ;
+    }
+
+    h3 {
+        width: 70%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    hr {
+        background: blue;
+    }
+
+    /* signup form */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+    .wrapper {
+        height: 80px;
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .sign-up {
+        border: 2px solid #f47225;
+        height: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        width: 50%;
+        -webkit-backface-visibility: hidden;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .sign-up.open {
+        width: 450px;
+    }
+    .sign-up .sign-up-button {
+
+        height: 100%;
+        line-height: 30px;
+        font-size: 1.3em;
+        font-weight: 600;
+        left: 0;
+        vertical-align: middle;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        -moz-transition: display 0.3s ease;
+        -o-transition: display 0.3s ease;
+        -webkit-transition: display 0.3s ease;
+        transition: display 0.3s ease;
+    }
+    .sign-up .input-group {
+        display: none;
+    }
+    .sign-up label {
+        color: white;
+        position: absolute;
+        top: 7px;
+        left: 16px;
+        pointer-events: none;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .sign-up input {
+        background: none;
+        border: 0;
+        color: white;
+        height: 30px;
+        padding-left: 16px;
+        width: -moz-calc(100% - 125px);
+        width: -o-calc(100% - 125px);
+        width: -webkit-calc(100% - 125px);
+        width: calc(100% - 125px);
+    }
+    .sign-up input:focus {
+        outline: 0;
+        -moz-box-shadow: 0 0 0;
+        -webkit-box-shadow: 0 0 0;
+        box-shadow: 0 0 0;
+    }
+    .sign-up button {
+        background: white;
+        border: 0;
+        color: #27ae60;
+        height: 25px;
+        font-weight: 600;
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        width: 80px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+
+    /*signup form ends */
+
+
+}
+

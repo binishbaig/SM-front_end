@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/js/waitlist.js"/>
+    <style>
+        body {
+            margin: 150px;
+            background: #fff;
+        }
+
+        h1 {
+            font-family: "Proxima Nova", "Helvetica Neue";
+            font-weight: 200;
+            color: #444;
+
+        .flip {
+            display: inline-block;
+        //border: 1px solid red;
+            position: relative;
+
+            width: 200px;
+            height: 40px;
+            position: relative;
+            top: 10px;
+
+        @include perspective(500);
+        @include transition(all .3s ease-in-out);
+
+
+        span {
+            font-weight:600;
+            display: block;
+            width: auto;
+        //border:1px solid lightgreen;
+        @include transition(all .3s ease-in-out);
+            opacity: 0;
+        @include transform-origin(0%, 0%);
+        @include transform(rotateX(90deg));
+
+            position: absolute;
+            top: -20px;
+            left: 0;
+
+        &.set {
+             top: 0;
+             opacity: 1;
+         @include transform-origin(0%, 0%);
+         @include transform(rotateX(0deg));
+         }
+
+        &.down {
+             top: 40px;
+             opacity: 0;
+         @include transform-origin(0%, 0%);
+         @include transform(rotateX(-90deg));
+         }
+
+        }
+        }
+        }
+    </style>
+
+</head>
+<body>
+<h1>
+    How much should I charge for my
+  <span id="flipper" class='flip'>
+    <span class="step step0 set">template?</span>
+    <span class="step step1">eBook?</span>
+    <span class="step step2">web service?</span>
+    <span class="step step3">another?</span>
+    <span class="step step4">otro?</span>
+    <span class="step step5">sick yet?</span>
+    <span class="step step6">continue?</span>
+  </span>
+</h1>
+
+<button class="next">next &rarr;</button>
+
+</body>
+</html>
